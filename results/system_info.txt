@@ -1,0 +1,10 @@
+CPU: Intel(R) Xeon(R) Processor @ 2.10GHz
+Logical CPUs: 1
+Physical cores: 1
+RAM (GiB): 3.9021453857421875
+OS: Linux
+Compiler: GCC 13.3.0
+Optimisation flags: -O3 -DNDEBUG
+Workload: 3000 cases, N=4000 elements each, seed=42, k in [5,20], q in [5e3,2e4]
+Protocol: 1 warm-up + 5 measured repetitions per configuration, median reported; file I/O/rendering/compilation excluded.
+NOTE: single logical CPU - parallel path demonstrated with 2 workers; speedup cannot be assessed.

@@ -1,0 +1,8 @@
+1ffda5c Evidence: FEA/backprop/benchmark results, plots, notes, AI log, ownership
+3b89a69 CLI front end and 27-test suite (positive, negative, numerical)
+d9449e2 Embedded: simulated MCU/FPGA/JTAG adapters with injectable recoverable timeout
+30bc657 I/O: strict ASCII STL and nodal-temperature CSV parsers with line-numbered errors
+051bd9e Backprop: hand-derived gradients, central-difference check, training loop
+af622d4 Batch: fixed-seed case generator and bounded std::thread worker pool with cancel/progress
+1edc522 FEA: 1-D linear-element rod solver with Dirichlet elimination and analytic error norms
+14051db Add CMake project, ignore rules and README skeleton
